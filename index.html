@@ -1,88 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>san dara</title>
-    <style>
-        
-
-        
-    </style>
+   <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#f4a460" text="White">
-    <form method="post">
-        <table width=100% bgcolor="#a52a2a" >
-            <tr  height="60" align="left" >
-                <th colspan="2"></th>
-                <td width=7%>Nick Name:</td>
-                <th><input type="textBox" maxlength="13">
-            </tr >
-            <tr height="60" align="left">
-                <th width=7%>First Name:</td>
-                <td width=20%><input type="textBox" maxlength="8" name="txtFirstname" required placeholder="please input"><br></td>
-                <td>place of birth:</td>
-                <th rowspan="3" width=20%> <textarea name="texplace" id="" cols="75" rows="10"></textarea></th>
+<body>
+    <div class="header"">
+        <img src="img/Original Logo.png" height="130px">
+        <div><h1 class="h1 color">heading 1</h1></div>
+    </div>
+    <div class="menu">
+        <button>Home</button>
+        <button>Contact Us</button> 
+        <button>Promotion</button> 
+        <button>Products</button> 
                 
-            </tr>
-            <tr height="60" align="left">
-                <th>Last Name:</td>
-                <td><input type="textBox" maxlength="8" name="txtLastname" aria-required="false" placeholder="please input" ><br></td>
-                <td></td> 
-            </tr>
-            <tr  height="60" align="left">
-                <th>Password: </th>
-                <td><input type="password" maxlength="18" name="txtpassword" aria-required="false"><br></td>
-                <td></td>
-            </tr>
-            <tr height="60" align="left">
-                <th>Confirm Password:</th>
-                <td><input type="password"maxlength="18" name="txtCofirm" aria-required="true"><br></td>
-                <td >Languages:</td>
-                <th rowspan="3" >
-                   <table  width=20% >
-                  
-                    <tr   >
-                         <td><input type="checkbox"name=lang value="Khmer" checked >Khmer</td>    
-                    </tr>
-                    <tr >
-                        <td><input type="checkbox" name=lang2 value="English">English</td>
-                    </tr>
-                    <tr >
-                        <td><input type="checkbox" name=lang3 value="Chinse">Chinse</td>    
-                   </tr>
-                   <tr >
-                       <td><input type="checkbox" name=lang4 value="Thai">Thai</td>
-                   </tr>
-                   <tr>
-                    <td height="36"></td>
-                </tr>
-                   
-                   
-                   </table>
-                   
-                </th> 
-            </tr >
-            <tr height="60" align="left">
-                <th>Email:</td>
-                <td><input type="email" name="txtEmail" aria-required="false"><br></td>
-                <th></th>
-                 
-            </tr>
-            <tr height="60" align="left">
-                <th>Sex:</td>
-                <td><input type="radio" value="Male" name="rdGender" checked >Male
-                    <input type="radio" value="Female" name="rdGender">Female  
-                </td>
-                <th></th>
-             
-            </tr>
-            <tr>
-                <th align="right"><input type="submit" value="Submit Data"></th>
-                <th align="left"><input type="reset" value="Clean Form"></th>
-                
-            </tr>
-            
-         </table>
-    </form>
-</body>
+    </div>
+   <p class="color">Paraphrasing with synonyms is considered by some to be an acceptable stage in teaching paraphrase, but it is necessary that it is ultimately combined with techniques for altering sentence structure to avoid the appearance of plagiarism.[4] Studies of English language students have found that ESL learners tend to rely on using synonyms rather than changing sentence structure when paraphrasing. Participants in a study of some Vietnamese ESL learners expressed that they preferred using synonyms out of a fear that using the wrong sentence structure would lead to the sentence having a different meaning. Na and Mai suggest that ESL teachers should provide varied activities including tasks requiring changes in syntax, and that ESL students should be given source texts to paraphrase whose meaning they are already readily able to understand.A paraphrase typically explains or clarifies the text that is being paraphrased. For example, "The signal was red" might be paraphrased as "The train was not allowed to pass because the signal was red". A paraphrase is usually introduced with verbum dicendi—a declaratory expression to signal the transition to the paraphrase. For example, in "The signal was red, that is, the train was not allowed to proceed," the that is signals the paraphrase that follows.
+    A paraphrase does not need to accompany a direct quotation. The paraphrase typically serves to put the source's statement into perspective or to clarify the context in which it appeared. A paraphrase is typically more detailed than a summary. One should add the source at the end of the sentence: When the light was red, trains could not go (Wikipedia).he phrase "in your own words" is often used within this context to imply that the writer has rewritten the text in their own writing style – how they would have written it if they had created the idea.[6] Nowadays, there are some models to learn and recognize paraphrase on natural language texts.[7] Sentences can also be automatically paraphrased using text simplification software.[8] A paraphrase typically explains or clarifies the text that is being paraphrased. For example, "The signal was red" might be paraphrased as "The train was not allowed to pass because the signal was red". A paraphrase is usually introduced with verbum dicendi—a declaratory expression to signal the transition to the paraphrase. For example, in "The signal was red, that is, the train was not allowed to proceed," the that is signals the paraphrase that follows.</p>
+   <h1 style="text-shadow: 3px 2px gray;">using style</h1>
+   <div class="fullwidth">
+      <div class="mid h4 ">
+       <div class="t1">
+        <h4> Date of Birth:</h4>
+        <h4>Image:</h4>
+        <h4>Name:</h4>
+        <h4>Email:</h4>
+        <h4>Gender:</h4>
+        <h4>Want to be:</h4><br><br><br><br><br><br><br><br><br><br><br>
+        <h4 > please select language of program you </h4>
+      </div>
+       <div class="t2">
+        <input type="date" name="dtDate"><br>
+        <input type="file" name="txtImage" multiples>
+        <input type="textbox" maxlength="18" name="txtName" aria-required="true" placeholder="input your name"><br>
+        <input type="email" name="txtEmail"><br>
+        <input type="radio" value="male" name="rdGender">Male
+        <input type="radio" value="Female" name="rdGender">Female <br>
+        <input type="checkbox" name="lang" value="Programmer">Programmer <br>
+        <input type="checkbox" name="lang" value="Web Developer ">Web Developer <br>
+        <input type="checkbox" name="lang" value="Graphic Designer">Graphic Designer<br>
+        <input type="checkbox" name="lang" value="Network">Network <br>
+        <select name="language" >
+            <optgroup label="Web">
+            <option >PHP</option>
+            <option >C#</option>
+            <option >Javascript</option>
+            <option >ASP Net</option>
+            </optgroup>
+            <optgroup label="Windows">
+            <option >VB Net</option>
+            <option >Java</option>
+            <option >Rubbi</option>
+            <option >C++</option>
+            </optgroup>
+        </select>
+        <select name="language" >
+            <optgroup label="Web">
+            <option >PHP</option>
+            <option >C#</option>
+            <option >Javascript</option>
+            <option >ASP Net</option>
+            </optgroup>
+            <optgroup label="Windows">
+            <option >VB Net</option>
+            <option >Java</option>
+            <option >Rubbi</option>
+            <option >C++</option>
+            </optgroup>
+        </select>
+        
+       </div>
+     </div>
+      <div class="mid h4" >
+          <div class="t1">
+            <h4>Color</h4>
+            <h4>Number You Like from 0 between 9:</Form></h4><br><br>
+            <h4 style="line-height: 50px;">Description:</h4>
+            <h4 style="line-height: 120px;">Input Password:</h4>
+          </div>
+          <div class="t2">
+            <input type="color" name="txtColor"><br>
+            <input type="number" name="txtNumber" min="o" max="9"><br>
+            <textarea name="txtDes"  cols="49" rows="10"></textarea>
+            <input type="password" name="txtpassword" maxlength="18">
+          </div>
+      </div>
+  <input type="reset" value="clear" >
+  <input type="submit" >
+  <input type="submit" value="show MSG">
+  
+    </body>
 </html>
