@@ -201,7 +201,7 @@ body{
   border: 2px solid white;
 }
 .item img:hover{
-  filter: brightness(150%);
+  opacity:(100%);
   transform: 0.4s; 
 }
 
