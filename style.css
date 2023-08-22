@@ -151,7 +151,7 @@ body{
 .item{
   width: 100px;
   margin: 10px;
-  filter: brightness(50%);
+  opacity:(50%);
 }
 .pic1{
   width: 350px;
