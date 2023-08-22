@@ -199,7 +199,7 @@ hr {
 
 .pic3 {
   position: absolute;
-  left: 1586px;
+  margin-left: 20%;
   margin-bottom: -9px;
   height: 90px;
   align-self: center;
@@ -213,7 +213,7 @@ hr {
 
 .pic4 {
   position: absolute;
-  left: 1586px;
+  margin-left: 20%;
   margin-bottom: -199px;
   height: 90px;
   align-self: center;
