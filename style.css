@@ -117,7 +117,7 @@ hr {
   height: 400px;
   background-color: antiquewhite;
   border: 2px solid white;
-  border-radius:0 0 150px 0;
+  border-bottom-right-radius:150px ;
 }
 
 .box3 ul li {
