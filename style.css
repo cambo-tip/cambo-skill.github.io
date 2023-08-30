@@ -152,6 +152,7 @@ a {
     width: 100%;
     margin-left: 50px;
     text-align: center;
+    justify-content: center;
 
 
 }
@@ -177,32 +178,43 @@ a {
     color: var(--o);
 }
 
-.star {
-    color: #848484;
 
+
+.Product .star{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    
 }
-
-.star input {
-    display: none;
-}
-
-.star input+label {
-    text-shadow: 1px 1px 0 #ffe400;
+.Product .star input{
+    font-size: 15pt;
+    display: flex;
+    width: 20px;
+    height: 40px;
     cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
 }
-
-.star input:checked+label {
+.Product .star input::before{
+    content: "\f005";
+    position: absolute;
+    font-family: fontAwesome;
+    color: #000;
+    transition: 0.5s;
+}
+.Product .star input:nth-child(2n+1)::before{
+  
+    left: initial;
+}
+.Product .star input:hover ~ input:before,
+.Product .star input:hover::before,
+.Product .star input:checked ~ input:before,
+.Product .star input:checked::before
+{
     color: #ffe400;
 }
-
-.star label:active {
-    transform: scale(0.8);
-}
-
-.star label:hover {
-    color: #ffe400;
-}
-
 .contenerR {
     width: 20%;
 
